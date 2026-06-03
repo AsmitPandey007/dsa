@@ -59,3 +59,11 @@ public:
 
    
 };
+
+
+int main(){
+    int piles = {1,2,3,6};
+    int h = 7;
+    int ans = minEatingSpeed(piles , h);
+    cout<< ans << endl;
+}
